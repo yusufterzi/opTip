@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E186743255F153100E6A77D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E186742255F153100E6A77D /* UIView+Extension.swift */; };
+		2E186748255F197C00E6A77D /* OldTipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E186747255F197C00E6A77D /* OldTipModel.swift */; };
+		2E18674F255F1B1A00E6A77D /* OldItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18674E255F1B1A00E6A77D /* OldItemsController.swift */; };
+		2E186756255F1E6100E6A77D /* OldItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E186754255F1E6100E6A77D /* OldItemCell.swift */; };
+		2E186757255F1E6100E6A77D /* OldItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E186755255F1E6100E6A77D /* OldItemCell.xib */; };
+		2E18675B255FF97C00E6A77D /* MainController+Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18675A255FF97B00E6A77D /* MainController+Tip.swift */; };
+		2E2F6A98255811C7004EABDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F6A97255811C7004EABDF /* AppDelegate.swift */; };
+		2E2F6A9C255811C7004EABDF /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F6A9B255811C7004EABDF /* MainController.swift */; };
+		2E2F6A9F255811C7004EABDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6A9D255811C7004EABDF /* Main.storyboard */; };
+		2E2F6AA1255811CA004EABDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AA0255811CA004EABDF /* Assets.xcassets */; };
+		2E2F6AA4255811CA004EABDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AA2255811CA004EABDF /* LaunchScreen.storyboard */; };
+		2E2F6ABC25581500004EABDF /* NunitoSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AAE25581500004EABDF /* NunitoSans-BlackItalic.ttf */; };
+		2E2F6ABD25581500004EABDF /* NunitoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AAF25581500004EABDF /* NunitoSans-BoldItalic.ttf */; };
+		2E2F6ABE25581500004EABDF /* NunitoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB025581500004EABDF /* NunitoSans-ExtraLightItalic.ttf */; };
+		2E2F6ABF25581500004EABDF /* NunitoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB125581500004EABDF /* NunitoSans-ExtraLight.ttf */; };
+		2E2F6AC025581500004EABDF /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB225581500004EABDF /* NunitoSans-Regular.ttf */; };
+		2E2F6AC125581500004EABDF /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB325581500004EABDF /* NunitoSans-Black.ttf */; };
+		2E2F6AC225581500004EABDF /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB425581500004EABDF /* NunitoSans-ExtraBold.ttf */; };
+		2E2F6AC325581500004EABDF /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB525581500004EABDF /* NunitoSans-SemiBold.ttf */; };
+		2E2F6AC425581500004EABDF /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB625581500004EABDF /* NunitoSans-Bold.ttf */; };
+		2E2F6AC525581500004EABDF /* NunitoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB725581500004EABDF /* NunitoSans-LightItalic.ttf */; };
+		2E2F6AC625581500004EABDF /* NunitoSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB825581500004EABDF /* NunitoSans-SemiBoldItalic.ttf */; };
+		2E2F6AC725581500004EABDF /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6AB925581500004EABDF /* NunitoSans-Light.ttf */; };
+		2E2F6AC825581500004EABDF /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6ABA25581500004EABDF /* NunitoSans-Italic.ttf */; };
+		2E2F6AC925581500004EABDF /* NunitoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F6ABB25581500004EABDF /* NunitoSans-ExtraBoldItalic.ttf */; };
+		2E4671D4255C708C005779B5 /* TipItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4671D2255C708C005779B5 /* TipItemCell.swift */; };
+		2E4671D5255C708C005779B5 /* TipItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4671D3255C708C005779B5 /* TipItemCell.xib */; };
+		2E4671DB255C71EB005779B5 /* LineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4671D9255C71EB005779B5 /* LineCell.swift */; };
+		2E4671E2255C786B005779B5 /* LineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4671E1255C786B005779B5 /* LineCell.xib */; };
+		2E4A91CB255B298F00E2E9A9 /* CustomModalTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A91C8255B298E00E2E9A9 /* CustomModalTableView.swift */; };
+		2E4A91CC255B298F00E2E9A9 /* CustomModalTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A91CA255B298E00E2E9A9 /* CustomModalTableViewModel.swift */; };
+		2E4A91CF255B2BE400E2E9A9 /* CustomModalTableView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A91CE255B2BE400E2E9A9 /* CustomModalTableView+TableView.swift */; };
+		2E4A91D3255B2DB400E2E9A9 /* TipCalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A91D2255B2DB400E2E9A9 /* TipCalculateView.swift */; };
+		2E4A91D8255B371500E2E9A9 /* TipItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A91D7255B371400E2E9A9 /* TipItemModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E186742255F153100E6A77D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2E186747255F197C00E6A77D /* OldTipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldTipModel.swift; sourceTree = "<group>"; };
+		2E18674E255F1B1A00E6A77D /* OldItemsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldItemsController.swift; sourceTree = "<group>"; };
+		2E186754255F1E6100E6A77D /* OldItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldItemCell.swift; sourceTree = "<group>"; };
+		2E186755255F1E6100E6A77D /* OldItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OldItemCell.xib; sourceTree = "<group>"; };
+		2E18675A255FF97B00E6A77D /* MainController+Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainController+Tip.swift"; sourceTree = "<group>"; };
+		2E2F6A94255811C7004EABDF /* OpTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2F6A97255811C7004EABDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E2F6A9B255811C7004EABDF /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		2E2F6A9E255811C7004EABDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E2F6AA0255811CA004EABDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E2F6AA3255811CA004EABDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E2F6AA5255811CA004EABDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2F6AAE25581500004EABDF /* NunitoSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2E2F6AAF25581500004EABDF /* NunitoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2E2F6AB025581500004EABDF /* NunitoSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2E2F6AB125581500004EABDF /* NunitoSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2E2F6AB225581500004EABDF /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		2E2F6AB325581500004EABDF /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		2E2F6AB425581500004EABDF /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2E2F6AB525581500004EABDF /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		2E2F6AB625581500004EABDF /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		2E2F6AB725581500004EABDF /* NunitoSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		2E2F6AB825581500004EABDF /* NunitoSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2E2F6AB925581500004EABDF /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		2E2F6ABA25581500004EABDF /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		2E2F6ABB25581500004EABDF /* NunitoSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2E4671D2255C708C005779B5 /* TipItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipItemCell.swift; sourceTree = "<group>"; };
+		2E4671D3255C708C005779B5 /* TipItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TipItemCell.xib; sourceTree = "<group>"; };
+		2E4671D9255C71EB005779B5 /* LineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCell.swift; sourceTree = "<group>"; };
+		2E4671E1255C786B005779B5 /* LineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineCell.xib; sourceTree = "<group>"; };
+		2E4A91C8255B298E00E2E9A9 /* CustomModalTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModalTableView.swift; sourceTree = "<group>"; };
+		2E4A91CA255B298E00E2E9A9 /* CustomModalTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModalTableViewModel.swift; sourceTree = "<group>"; };
+		2E4A91CE255B2BE400E2E9A9 /* CustomModalTableView+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomModalTableView+TableView.swift"; sourceTree = "<group>"; };
+		2E4A91D2255B2DB400E2E9A9 /* TipCalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculateView.swift; sourceTree = "<group>"; };
+		2E4A91D7255B371400E2E9A9 /* TipItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipItemModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2F6A91255811C7004EABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E186741255F151E00E6A77D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E186742255F153100E6A77D /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E186746255F196C00E6A77D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E186747255F197C00E6A77D /* OldTipModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E18674B255F1AE900E6A77D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E18674D255F1B0300E6A77D /* OldItems */,
+				2E18674C255F1AF200E6A77D /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E18674C255F1AF200E6A77D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E2F6A9B255811C7004EABDF /* MainController.swift */,
+				2E18675A255FF97B00E6A77D /* MainController+Tip.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E18674D255F1B0300E6A77D /* OldItems */ = {
+			isa = PBXGroup;
+			children = (
+				2E186752255F1D9A00E6A77D /* OldItem */,
+				2E18674E255F1B1A00E6A77D /* OldItemsController.swift */,
+			);
+			path = OldItems;
+			sourceTree = "<group>";
+		};
+		2E186752255F1D9A00E6A77D /* OldItem */ = {
+			isa = PBXGroup;
+			children = (
+				2E186755255F1E6100E6A77D /* OldItemCell.xib */,
+				2E186754255F1E6100E6A77D /* OldItemCell.swift */,
+			);
+			path = OldItem;
+			sourceTree = "<group>";
+		};
+		2E2F6A8B255811C7004EABDF = {
+			isa = PBXGroup;
+			children = (
+				2E2F6A96255811C7004EABDF /* OpTip */,
+				2E2F6A95255811C7004EABDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E2F6A95255811C7004EABDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E2F6A94255811C7004EABDF /* OpTip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E2F6A96255811C7004EABDF /* OpTip */ = {
+			isa = PBXGroup;
+			children = (
+				2E18674B255F1AE900E6A77D /* Controllers */,
+				2E186746255F196C00E6A77D /* Models */,
+				2E186741255F151E00E6A77D /* Extensions */,
+				2E4A91D1255B2DA600E2E9A9 /* TipCalculateView */,
+				2E4A91C7255B298E00E2E9A9 /* CustomModalTableView */,
+				2E2F6AAD255814F4004EABDF /* Font */,
+				2E2F6A97255811C7004EABDF /* AppDelegate.swift */,
+				2E2F6A9D255811C7004EABDF /* Main.storyboard */,
+				2E2F6AA0255811CA004EABDF /* Assets.xcassets */,
+				2E2F6AA2255811CA004EABDF /* LaunchScreen.storyboard */,
+				2E2F6AA5255811CA004EABDF /* Info.plist */,
+			);
+			path = OpTip;
+			sourceTree = "<group>";
+		};
+		2E2F6AAD255814F4004EABDF /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2E2F6AB325581500004EABDF /* NunitoSans-Black.ttf */,
+				2E2F6AAE25581500004EABDF /* NunitoSans-BlackItalic.ttf */,
+				2E2F6AB625581500004EABDF /* NunitoSans-Bold.ttf */,
+				2E2F6AAF25581500004EABDF /* NunitoSans-BoldItalic.ttf */,
+				2E2F6AB425581500004EABDF /* NunitoSans-ExtraBold.ttf */,
+				2E2F6ABB25581500004EABDF /* NunitoSans-ExtraBoldItalic.ttf */,
+				2E2F6AB125581500004EABDF /* NunitoSans-ExtraLight.ttf */,
+				2E2F6AB025581500004EABDF /* NunitoSans-ExtraLightItalic.ttf */,
+				2E2F6ABA25581500004EABDF /* NunitoSans-Italic.ttf */,
+				2E2F6AB925581500004EABDF /* NunitoSans-Light.ttf */,
+				2E2F6AB725581500004EABDF /* NunitoSans-LightItalic.ttf */,
+				2E2F6AB225581500004EABDF /* NunitoSans-Regular.ttf */,
+				2E2F6AB525581500004EABDF /* NunitoSans-SemiBold.ttf */,
+				2E2F6AB825581500004EABDF /* NunitoSans-SemiBoldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2E4671D0255C7054005779B5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2E4671D8255C71DC005779B5 /* LineCell */,
+				2E4671D1255C706C005779B5 /* TipItemCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2E4671D1255C706C005779B5 /* TipItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				2E4671D3255C708C005779B5 /* TipItemCell.xib */,
+				2E4671D2255C708C005779B5 /* TipItemCell.swift */,
+			);
+			path = TipItemCell;
+			sourceTree = "<group>";
+		};
+		2E4671D8255C71DC005779B5 /* LineCell */ = {
+			isa = PBXGroup;
+			children = (
+				2E4671E1255C786B005779B5 /* LineCell.xib */,
+				2E4671D9255C71EB005779B5 /* LineCell.swift */,
+			);
+			path = LineCell;
+			sourceTree = "<group>";
+		};
+		2E4A91C7255B298E00E2E9A9 /* CustomModalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2E4671D0255C7054005779B5 /* Cells */,
+				2E4A91C9255B298E00E2E9A9 /* Model */,
+				2E4A91C8255B298E00E2E9A9 /* CustomModalTableView.swift */,
+				2E4A91CE255B2BE400E2E9A9 /* CustomModalTableView+TableView.swift */,
+			);
+			path = CustomModalTableView;
+			sourceTree = "<group>";
+		};
+		2E4A91C9255B298E00E2E9A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E4A91CA255B298E00E2E9A9 /* CustomModalTableViewModel.swift */,
+				2E4A91D7255B371400E2E9A9 /* TipItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E4A91D1255B2DA600E2E9A9 /* TipCalculateView */ = {
+			isa = PBXGroup;
+			children = (
+				2E4A91D2255B2DB400E2E9A9 /* TipCalculateView.swift */,
+			);
+			path = TipCalculateView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E2F6A93255811C7004EABDF /* OpTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2F6AA8255811CA004EABDF /* Build configuration list for PBXNativeTarget "OpTip" */;
+			buildPhases = (
+				2E2F6A90255811C7004EABDF /* Sources */,
+				2E2F6A91255811C7004EABDF /* Frameworks */,
+				2E2F6A92255811C7004EABDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpTip;
+			productName = OpTip;
+			productReference = 2E2F6A94255811C7004EABDF /* OpTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E2F6A8C255811C7004EABDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2E2F6A93255811C7004EABDF = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 2E2F6A8F255811C7004EABDF /* Build configuration list for PBXProject "OpTip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E2F6A8B255811C7004EABDF;
+			productRefGroup = 2E2F6A95255811C7004EABDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E2F6A93255811C7004EABDF /* OpTip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E2F6A92255811C7004EABDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2F6AC225581500004EABDF /* NunitoSans-ExtraBold.ttf in Resources */,
+				2E2F6AC125581500004EABDF /* NunitoSans-Black.ttf in Resources */,
+				2E2F6AC925581500004EABDF /* NunitoSans-ExtraBoldItalic.ttf in Resources */,
+				2E4671E2255C786B005779B5 /* LineCell.xib in Resources */,
+				2E2F6AC325581500004EABDF /* NunitoSans-SemiBold.ttf in Resources */,
+				2E2F6AC425581500004EABDF /* NunitoSans-Bold.ttf in Resources */,
+				2E2F6ABD25581500004EABDF /* NunitoSans-BoldItalic.ttf in Resources */,
+				2E4671D5255C708C005779B5 /* TipItemCell.xib in Resources */,
+				2E2F6ABC25581500004EABDF /* NunitoSans-BlackItalic.ttf in Resources */,
+				2E2F6AC825581500004EABDF /* NunitoSans-Italic.ttf in Resources */,
+				2E2F6AA4255811CA004EABDF /* LaunchScreen.storyboard in Resources */,
+				2E2F6AC625581500004EABDF /* NunitoSans-SemiBoldItalic.ttf in Resources */,
+				2E2F6AC525581500004EABDF /* NunitoSans-LightItalic.ttf in Resources */,
+				2E2F6AC025581500004EABDF /* NunitoSans-Regular.ttf in Resources */,
+				2E2F6AA1255811CA004EABDF /* Assets.xcassets in Resources */,
+				2E2F6ABE25581500004EABDF /* NunitoSans-ExtraLightItalic.ttf in Resources */,
+				2E2F6AC725581500004EABDF /* NunitoSans-Light.ttf in Resources */,
+				2E2F6A9F255811C7004EABDF /* Main.storyboard in Resources */,
+				2E186757255F1E6100E6A77D /* OldItemCell.xib in Resources */,
+				2E2F6ABF25581500004EABDF /* NunitoSans-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2F6A90255811C7004EABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E186748255F197C00E6A77D /* OldTipModel.swift in Sources */,
+				2E4671D4255C708C005779B5 /* TipItemCell.swift in Sources */,
+				2E2F6A9C255811C7004EABDF /* MainController.swift in Sources */,
+				2E4A91D3255B2DB400E2E9A9 /* TipCalculateView.swift in Sources */,
+				2E4671DB255C71EB005779B5 /* LineCell.swift in Sources */,
+				2E2F6A98255811C7004EABDF /* AppDelegate.swift in Sources */,
+				2E4A91CC255B298F00E2E9A9 /* CustomModalTableViewModel.swift in Sources */,
+				2E4A91D8255B371500E2E9A9 /* TipItemModel.swift in Sources */,
+				2E18674F255F1B1A00E6A77D /* OldItemsController.swift in Sources */,
+				2E4A91CB255B298F00E2E9A9 /* CustomModalTableView.swift in Sources */,
+				2E18675B255FF97C00E6A77D /* MainController+Tip.swift in Sources */,
+				2E186743255F153100E6A77D /* UIView+Extension.swift in Sources */,
+				2E4A91CF255B2BE400E2E9A9 /* CustomModalTableView+TableView.swift in Sources */,
+				2E186756255F1E6100E6A77D /* OldItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E2F6A9D255811C7004EABDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E2F6A9E255811C7004EABDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E2F6AA2255811CA004EABDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E2F6AA3255811CA004EABDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E2F6AA6255811CA004EABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E2F6AA7255811CA004EABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E2F6AA9255811CA004EABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3475PQ5N9;
+				INFOPLIST_FILE = OpTip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuan.OpTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E2F6AAA255811CA004EABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3475PQ5N9;
+				INFOPLIST_FILE = OpTip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuan.OpTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E2F6A8F255811C7004EABDF /* Build configuration list for PBXProject "OpTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2F6AA6255811CA004EABDF /* Debug */,
+				2E2F6AA7255811CA004EABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2F6AA8255811CA004EABDF /* Build configuration list for PBXNativeTarget "OpTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2F6AA9255811CA004EABDF /* Debug */,
+				2E2F6AAA255811CA004EABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E2F6A8C255811C7004EABDF /* Project object */;
+}
