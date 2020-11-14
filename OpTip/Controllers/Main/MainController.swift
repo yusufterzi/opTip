@@ -45,7 +45,7 @@ class MainController: UIViewController {
                                           target: self, action: #selector(menuPageClicked))
         menu.image = menu.image?.withRenderingMode(.alwaysOriginal)
         navigationItem.rightBarButtonItem = menu
-        tipButtonclicked2(btn2)
+        tipButtonclicked2(btn2 as Any)
     }
     
     func setTitle() {
