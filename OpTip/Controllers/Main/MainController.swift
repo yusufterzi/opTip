@@ -66,25 +66,27 @@ class MainController: UIViewController {
     
     @IBAction func tipMinusClicked(_ sender: Any) {
         let textValue = tipTextField.text?.replacingOccurrences(of: "$", with: "").replacingOccurrences(of: " ", with: "")
-        var iValue: Int = Int(textValue ?? "") ?? 0
+        var iValue: Double = Double(textValue ?? "") ?? 0
         iValue -= 10
         if iValue < 0 { iValue = 0 }
-        tipTextField.text = "$ \(iValue)"
+        tipTextField.text = "$ " + String(format: "%.2f", iValue)
     }
     
     @IBAction func tipPlusClicked(_ sender: Any) {
         let textValue = tipTextField.text?.replacingOccurrences(of: "$", with: "").replacingOccurrences(of: " ", with: "")
-        var iValue: Int = Int(textValue ?? "") ?? 0
+        var iValue: Double = Double(textValue ?? "") ?? 0
         iValue += 10
-        tipTextField.text = "$ \(iValue)"
+        tipTextField.text = "$ " + String(format: "%.2f", iValue)
     }
     
     @IBAction func editDidBegin(_ sender: Any) {
-        tipTextField.text = tipTextField.text?.replacingOccurrences(of: "$", with: "")
+        tipTextField.text = tipTextField.text?.replacingOccurrences(of: "$ ", with: "")
     }
     
     @IBAction func editDidEnd(_ sender: Any) {
-        tipTextField.text = "$ " + (tipTextField.text ?? "")
+        let textValue = tipTextField.text?.replacingOccurrences(of: "$", with: "").replacingOccurrences(of: " ", with: "")
+        let iValue: Double = Double(textValue ?? "") ?? 0
+        tipTextField.text = "$ " + String(format: "%.2f", iValue)
     }
     
     @IBAction func tipButtonclicked1(_ sender: Any) {

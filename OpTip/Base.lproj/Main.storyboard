@@ -86,7 +86,7 @@
                                                                                 <rect key="frame" x="28" y="0.0" width="224" height="28"/>
                                                                                 <color key="textColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <fontDescription key="fontDescription" name="NunitoSans-Bold" family="Nunito Sans" pointSize="30"/>
-                                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                                 <connections>
                                                                                     <action selector="editDidBegin:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="LS8-7A-M1C"/>
                                                                                     <action selector="editDidEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Rqg-fJ-jRn"/>
