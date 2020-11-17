@@ -56,6 +56,7 @@ extension MainController {
     }
     
     @IBAction func btnCalculateClicked(_ sender: Any) {
+        view.endEditing(true)
         if selectedTipRatio <= 0 {
             return
 
