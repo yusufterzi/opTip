@@ -43,4 +43,6 @@ class OldItemCell: UITableViewCell {
         mainView.layer.shadowRadius = 5
         mainView.layer.shadowOffset = CGSize(width: 0, height: 0)
     }
+    
+    
 }

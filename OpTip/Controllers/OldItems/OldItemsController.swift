@@ -41,6 +41,7 @@ class OldItemsController: UIViewController {
 }
 
 extension OldItemsController: UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         oldItemsArray.count
     }
@@ -52,5 +53,28 @@ extension OldItemsController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if (editingStyle == .delete) {
+            
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let askAction = UIContextualAction(style: .normal, title: nil) { [weak self] action, view, complete in
+            self?.oldItemsArray.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            UserDefaults.standard.set(try? PropertyListEncoder().encode(self?.oldItemsArray), forKey:"oldItems")
+          complete(true)
+        }
+
+        askAction.image = UIImage(named: "Delete")
+        askAction.backgroundColor = UIColor(red: 0.98, green:  0.98, blue:  0.98, alpha: 1)
+        return UISwipeActionsConfiguration(actions: [askAction])
+      }
     
 }

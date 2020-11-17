@@ -507,7 +507,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wh4-gz-MGo">
-                                <rect key="frame" x="20" y="64" width="374" height="798"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="798"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -516,11 +516,11 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fzq-zE-IEj"/>
-                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Wh4-gz-MGo" firstAttribute="leading" secondItem="fzq-zE-IEj" secondAttribute="leading" constant="20" id="8SB-YZ-4WB"/>
+                            <constraint firstItem="Wh4-gz-MGo" firstAttribute="leading" secondItem="fzq-zE-IEj" secondAttribute="leading" id="8SB-YZ-4WB"/>
                             <constraint firstItem="Wh4-gz-MGo" firstAttribute="top" secondItem="fzq-zE-IEj" secondAttribute="top" constant="20" id="gzP-yI-U9b"/>
-                            <constraint firstItem="fzq-zE-IEj" firstAttribute="trailing" secondItem="Wh4-gz-MGo" secondAttribute="trailing" constant="20" id="ibU-AN-LKL"/>
+                            <constraint firstItem="fzq-zE-IEj" firstAttribute="trailing" secondItem="Wh4-gz-MGo" secondAttribute="trailing" id="ibU-AN-LKL"/>
                             <constraint firstItem="fzq-zE-IEj" firstAttribute="bottom" secondItem="Wh4-gz-MGo" secondAttribute="bottom" id="sEi-Qc-740"/>
                         </constraints>
                     </view>

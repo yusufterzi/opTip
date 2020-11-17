@@ -124,7 +124,7 @@ extension MainController {
             ratio: self.selectedTipRatio, date: now,
             bill: billValue, tipAmount: totalTip,
             totalPerPerson: (totalTip + Double(billValue)) / Double(personCount))
-        oldItems?.append(item)
+        oldItems?.insert(item, at: 0)
         UserDefaults.standard.set(try? PropertyListEncoder().encode(oldItems), forKey:"oldItems")
     }
     
